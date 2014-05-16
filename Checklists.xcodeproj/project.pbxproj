@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE50F4EB1925DA890047A32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50F4EA1925DA890047A32E /* Foundation.framework */; };
+		AE50F4ED1925DA890047A32E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50F4EC1925DA890047A32E /* CoreGraphics.framework */; };
+		AE50F4EF1925DA890047A32E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50F4EE1925DA890047A32E /* UIKit.framework */; };
+		AE50F4F51925DA890047A32E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE50F4F31925DA890047A32E /* InfoPlist.strings */; };
+		AE50F4F71925DA890047A32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50F4F61925DA890047A32E /* main.m */; };
+		AE50F4FB1925DA890047A32E /* ChecklistsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50F4FA1925DA890047A32E /* ChecklistsAppDelegate.m */; };
+		AE50F4FE1925DA890047A32E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE50F4FC1925DA890047A32E /* Main.storyboard */; };
+		AE50F5011925DA890047A32E /* ChecklistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50F5001925DA890047A32E /* ChecklistsViewController.m */; };
+		AE50F5031925DA890047A32E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE50F5021925DA890047A32E /* Images.xcassets */; };
+		AE50F50A1925DA8A0047A32E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50F5091925DA8A0047A32E /* XCTest.framework */; };
+		AE50F50B1925DA8A0047A32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50F4EA1925DA890047A32E /* Foundation.framework */; };
+		AE50F50C1925DA8A0047A32E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE50F4EE1925DA890047A32E /* UIKit.framework */; };
+		AE50F5141925DA8A0047A32E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE50F5121925DA8A0047A32E /* InfoPlist.strings */; };
+		AE50F5161925DA8A0047A32E /* ChecklistsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50F5151925DA8A0047A32E /* ChecklistsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE50F50D1925DA8A0047A32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE50F4DF1925DA890047A32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE50F4E61925DA890047A32E;
+			remoteInfo = Checklists;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE50F4E71925DA890047A32E /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE50F4EA1925DA890047A32E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE50F4EC1925DA890047A32E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE50F4EE1925DA890047A32E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE50F4F21925DA890047A32E /* Checklists-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Checklists-Info.plist"; sourceTree = "<group>"; };
+		AE50F4F41925DA890047A32E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE50F4F61925DA890047A32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE50F4F81925DA890047A32E /* Checklists-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Checklists-Prefix.pch"; sourceTree = "<group>"; };
+		AE50F4F91925DA890047A32E /* ChecklistsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChecklistsAppDelegate.h; sourceTree = "<group>"; };
+		AE50F4FA1925DA890047A32E /* ChecklistsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistsAppDelegate.m; sourceTree = "<group>"; };
+		AE50F4FD1925DA890047A32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE50F4FF1925DA890047A32E /* ChecklistsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChecklistsViewController.h; sourceTree = "<group>"; };
+		AE50F5001925DA890047A32E /* ChecklistsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistsViewController.m; sourceTree = "<group>"; };
+		AE50F5021925DA890047A32E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE50F5081925DA8A0047A32E /* ChecklistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChecklistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE50F5091925DA8A0047A32E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE50F5111925DA8A0047A32E /* ChecklistsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChecklistsTests-Info.plist"; sourceTree = "<group>"; };
+		AE50F5131925DA8A0047A32E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE50F5151925DA8A0047A32E /* ChecklistsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE50F4E41925DA890047A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50F4ED1925DA890047A32E /* CoreGraphics.framework in Frameworks */,
+				AE50F4EF1925DA890047A32E /* UIKit.framework in Frameworks */,
+				AE50F4EB1925DA890047A32E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50F5051925DA8A0047A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50F50A1925DA8A0047A32E /* XCTest.framework in Frameworks */,
+				AE50F50C1925DA8A0047A32E /* UIKit.framework in Frameworks */,
+				AE50F50B1925DA8A0047A32E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE50F4DE1925DA890047A32E = {
+			isa = PBXGroup;
+			children = (
+				AE50F4F01925DA890047A32E /* Checklists */,
+				AE50F50F1925DA8A0047A32E /* ChecklistsTests */,
+				AE50F4E91925DA890047A32E /* Frameworks */,
+				AE50F4E81925DA890047A32E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE50F4E81925DA890047A32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE50F4E71925DA890047A32E /* Checklists.app */,
+				AE50F5081925DA8A0047A32E /* ChecklistsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE50F4E91925DA890047A32E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE50F4EA1925DA890047A32E /* Foundation.framework */,
+				AE50F4EC1925DA890047A32E /* CoreGraphics.framework */,
+				AE50F4EE1925DA890047A32E /* UIKit.framework */,
+				AE50F5091925DA8A0047A32E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE50F4F01925DA890047A32E /* Checklists */ = {
+			isa = PBXGroup;
+			children = (
+				AE50F4F91925DA890047A32E /* ChecklistsAppDelegate.h */,
+				AE50F4FA1925DA890047A32E /* ChecklistsAppDelegate.m */,
+				AE50F4FC1925DA890047A32E /* Main.storyboard */,
+				AE50F4FF1925DA890047A32E /* ChecklistsViewController.h */,
+				AE50F5001925DA890047A32E /* ChecklistsViewController.m */,
+				AE50F5021925DA890047A32E /* Images.xcassets */,
+				AE50F4F11925DA890047A32E /* Supporting Files */,
+			);
+			path = Checklists;
+			sourceTree = "<group>";
+		};
+		AE50F4F11925DA890047A32E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE50F4F21925DA890047A32E /* Checklists-Info.plist */,
+				AE50F4F31925DA890047A32E /* InfoPlist.strings */,
+				AE50F4F61925DA890047A32E /* main.m */,
+				AE50F4F81925DA890047A32E /* Checklists-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE50F50F1925DA8A0047A32E /* ChecklistsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE50F5151925DA8A0047A32E /* ChecklistsTests.m */,
+				AE50F5101925DA8A0047A32E /* Supporting Files */,
+			);
+			path = ChecklistsTests;
+			sourceTree = "<group>";
+		};
+		AE50F5101925DA8A0047A32E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE50F5111925DA8A0047A32E /* ChecklistsTests-Info.plist */,
+				AE50F5121925DA8A0047A32E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE50F4E61925DA890047A32E /* Checklists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE50F5191925DA8A0047A32E /* Build configuration list for PBXNativeTarget "Checklists" */;
+			buildPhases = (
+				AE50F4E31925DA890047A32E /* Sources */,
+				AE50F4E41925DA890047A32E /* Frameworks */,
+				AE50F4E51925DA890047A32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checklists;
+			productName = Checklists;
+			productReference = AE50F4E71925DA890047A32E /* Checklists.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE50F5071925DA8A0047A32E /* ChecklistsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE50F51C1925DA8A0047A32E /* Build configuration list for PBXNativeTarget "ChecklistsTests" */;
+			buildPhases = (
+				AE50F5041925DA8A0047A32E /* Sources */,
+				AE50F5051925DA8A0047A32E /* Frameworks */,
+				AE50F5061925DA8A0047A32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE50F50E1925DA8A0047A32E /* PBXTargetDependency */,
+			);
+			name = ChecklistsTests;
+			productName = ChecklistsTests;
+			productReference = AE50F5081925DA8A0047A32E /* ChecklistsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE50F4DF1925DA890047A32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Checklists;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IRONIC3D;
+				TargetAttributes = {
+					AE50F5071925DA8A0047A32E = {
+						TestTargetID = AE50F4E61925DA890047A32E;
+					};
+				};
+			};
+			buildConfigurationList = AE50F4E21925DA890047A32E /* Build configuration list for PBXProject "Checklists" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE50F4DE1925DA890047A32E;
+			productRefGroup = AE50F4E81925DA890047A32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE50F4E61925DA890047A32E /* Checklists */,
+				AE50F5071925DA8A0047A32E /* ChecklistsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE50F4E51925DA890047A32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50F5031925DA890047A32E /* Images.xcassets in Resources */,
+				AE50F4F51925DA890047A32E /* InfoPlist.strings in Resources */,
+				AE50F4FE1925DA890047A32E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50F5061925DA8A0047A32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50F5141925DA8A0047A32E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE50F4E31925DA890047A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50F4F71925DA890047A32E /* main.m in Sources */,
+				AE50F4FB1925DA890047A32E /* ChecklistsAppDelegate.m in Sources */,
+				AE50F5011925DA890047A32E /* ChecklistsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE50F5041925DA8A0047A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE50F5161925DA8A0047A32E /* ChecklistsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE50F50E1925DA8A0047A32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE50F4E61925DA890047A32E /* Checklists */;
+			targetProxy = AE50F50D1925DA8A0047A32E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE50F4F31925DA890047A32E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50F4F41925DA890047A32E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE50F4FC1925DA890047A32E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50F4FD1925DA890047A32E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE50F5121925DA8A0047A32E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE50F5131925DA8A0047A32E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE50F5171925DA8A0047A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE50F5181925DA8A0047A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE50F51A1925DA8A0047A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checklists/Checklists-Prefix.pch";
+				INFOPLIST_FILE = "Checklists/Checklists-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE50F51B1925DA8A0047A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checklists/Checklists-Prefix.pch";
+				INFOPLIST_FILE = "Checklists/Checklists-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE50F51D1925DA8A0047A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Checklists.app/Checklists";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checklists/Checklists-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChecklistsTests/ChecklistsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE50F51E1925DA8A0047A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Checklists.app/Checklists";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checklists/Checklists-Prefix.pch";
+				INFOPLIST_FILE = "ChecklistsTests/ChecklistsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE50F4E21925DA890047A32E /* Build configuration list for PBXProject "Checklists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50F5171925DA8A0047A32E /* Debug */,
+				AE50F5181925DA8A0047A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE50F5191925DA8A0047A32E /* Build configuration list for PBXNativeTarget "Checklists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50F51A1925DA8A0047A32E /* Debug */,
+				AE50F51B1925DA8A0047A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE50F51C1925DA8A0047A32E /* Build configuration list for PBXNativeTarget "ChecklistsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE50F51D1925DA8A0047A32E /* Debug */,
+				AE50F51E1925DA8A0047A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE50F4DF1925DA890047A32E /* Project object */;
+}
